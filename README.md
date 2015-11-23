@@ -1,4 +1,6 @@
 # haproxy_demo-cookbook
+Tools: Chef, Vagrant, and Berkshelf.
+
 Cookbook to test and play with HAProxy.
 
 Prerequisites:
