@@ -26,18 +26,18 @@ This will converge 3 nodes:
 * Ubuntu 14.04.3 LTS
 
 ## Attributes
-node['haproxy_demo']['haproxy']['port'] - default port HAProxy listens on.
-node['haproxy_demo']['haproxy']['frontend'] - name of frontend.
-node['haproxy_demo']['haproxy']['backend'] - name of backend.
-node['haproxy_demo']['haproxy']['lb_mode'] - Balance Mode. roundrobin, static-rr, leastconn, first, etc...
-node['haproxy_demo']['haproxy']['mode'] - http, tcp, etc...
-node['haproxy_demo']['haproxy']['webservers'] - list of your backend servers in ruby has format.
-node['haproxy_demo']['webserver']['root_dir'] - root of your webserver.
-node['haproxy_demo']['webserver']['owner'] - user that your webserver is running as.
-node['haproxy_demo']['webserver']['group'] - group that your webserver is runnin as.
-node['haproxy_demo']['webserver']['mode'] - file mode.
-node['haproxy_demo']['webserver']['nginx_root'] - webserver's config root.
-node['haproxy_demo']['webserver']['port'] - port your webserver is running on.
+* node['haproxy_demo']['haproxy']['port'] - default port HAProxy listens on.
+* node['haproxy_demo']['haproxy']['frontend'] - name of frontend.
+* node['haproxy_demo']['haproxy']['backend'] - name of backend.
+* node['haproxy_demo']['haproxy']['lb_mode'] - Balance Mode. roundrobin, static-rr, leastconn, first, etc...
+* node['haproxy_demo']['haproxy']['mode'] - http, tcp, etc...
+* node['haproxy_demo']['haproxy']['webservers'] - list of your backend servers in ruby has format.
+* node['haproxy_demo']['webserver']['root_dir'] - root of your webserver.
+* node['haproxy_demo']['webserver']['owner'] - user that your webserver is running as.
+* node['haproxy_demo']['webserver']['group'] - group that your webserver is runnin as.
+* node['haproxy_demo']['webserver']['mode'] - file mode.
+* node['haproxy_demo']['webserver']['nginx_root'] - webserver's config root.
+* node['haproxy_demo']['webserver']['port'] - port your webserver is running on.
 
 ## Usage
 
