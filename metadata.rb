@@ -1,0 +1,8 @@
+name             'haproxy_demo'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures haproxy_demo'
+long_description 'Installs/Configures haproxy_demo'
+version          '1.0.1'
+supports          'ubuntu', '>= 14'
