@@ -4,22 +4,23 @@ Tools: Chef, Vagrant, and Berkshelf.
 Cookbook to test and play with HAProxy.
 
 Prerequisites:
-  1) Install Vagrant
-  2) Install Chef Development Kit
-  3) Vagrant plugin for Berkshelf: ‘vagrant plugin install vagrant-berkshelf’
-  4) Virtual Box
-  5) 'cd' to the git directory and run 'vagrant up'
+  1. Install Vagrant
+  2. Install Chef Development Kit
+  3. Vagrant plugin for Berkshelf: ‘vagrant plugin install vagrant-berkshelf’
+  4. Virtual Box
+  5. 'cd' to the git directory and run 'vagrant up'
 
 This will converge 3 nodes:
-    1) Main HAProxy instance.
-    2) First web server.
-    3) Second web server.
-
-    To test functionality, use curl:
+    1. Main HAProxy instance.
+    2. First web server.
+    3. Second web server.
+    4. To test functionality, use curl:
+    ```
     ~/git/haproxy_demo: curl 192.168.1.2
     <h1>webserver01</h1>
     ~/git/haproxy_demo: curl 192.168.1.2
     <h1>webserver02</h1>
+    ```
 
 ## Supported Platforms
 
