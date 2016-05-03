@@ -16,6 +16,7 @@ This will converge 3 nodes:
   3. Second web server.
 
   * To test functionality, use curl:
+
   ```
   ~/git/haproxy_demo: curl 192.168.1.2
   <h1>webserver01</h1>
